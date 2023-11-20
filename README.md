@@ -1,4 +1,4 @@
-# Adding Feature 1A
+# Adding Feature B - Introducing a Dockerfile
 # ==================
 
 # WebGoat 8: A deliberately insecure Web Application
