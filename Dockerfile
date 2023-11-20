@@ -36,6 +36,6 @@ ENTRYPOINT [ "java", \
 
 # Mend traceability labels
 LABEL io.mend.image.dockerfile.path=Dockerfile
-LABEL org.opencontainers.image.source=https://github.com/jorger-democorp-mend-ghc/WebGoat
+LABEL org.opencontainers.image.source=https://github.com/jorger-democorp-mend-ghc/JR_WebGoat
 
 
