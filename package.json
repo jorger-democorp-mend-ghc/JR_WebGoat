@@ -13,8 +13,8 @@
     "event-source-polyfill": "1.0.26",
     "faker": "5.5.3",
     "express": "3.0.0",
-    "lodash": "0.9.2" vbbvbvvbbv
-    "axios": "0.21.1"
+    "lodash": "0.9.2",
+    "axios": "0.21.1",
     "homebridge": "^1.7.0"
   }
 }
