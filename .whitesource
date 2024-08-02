@@ -4,7 +4,8 @@
     "workflowRules": {
       "enabled": true
     },
-    "enableRenovate": false
+    "enableRenovate": false,
+    "extends": [":dependencyDashboard"]
   },
   "scanSettings": {
      "releaseBranches": ["v.*"]
