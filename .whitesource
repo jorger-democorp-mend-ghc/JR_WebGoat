@@ -11,6 +11,7 @@
   },
   "scanSettingsSAST": {
     "enableScan": true,
+    "enableRemediation": true,
     "scanPullRequests": true,
     "incrementalScan": true,
     "baseBranches": ["dev"]
