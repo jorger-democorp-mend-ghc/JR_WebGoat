@@ -1,4 +1,5 @@
 {
     "scans": {
         "pathExclusions": ["/src/"]
+    }
 }
