@@ -1,5 +1,5 @@
 {
     "scans": {
-        "pathExclusions": ["^(?!.*\/src\/main\/java\/org\/owasp\/webgoat\/lessons\/pathtraversal.*"]
+        "pathExclusions": ["/^(?!.*\/src\/main\/java\/org\/owasp\/webgoat\/lessons\/pathtraversal).*/gm"]
     }
 }
