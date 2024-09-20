@@ -1,5 +1,5 @@
 {
     "scans": {
-        "pathExclusions": ["^robot"]
+        "pathExclusions": ["/^robot/"]
     }
 }
