@@ -9,7 +9,8 @@
   "scanSettings": {
     "releaseBranches": ["v.*"],
     "enableLicenseViolations": true,
-    "enableReachability": true
+    "enableReachability": true,
+    "exploitability": true
   },
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "failure",
