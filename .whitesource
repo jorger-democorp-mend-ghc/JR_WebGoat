@@ -7,8 +7,17 @@
     "enableRenovate": false
   },
   "scanSettings": {
-     "releaseBranches": ["v.*"]
+    "releaseBranches": ["v.*"],
+    "enableLicenseViolations": true,
+    "enableReachability": true
   },
+  "checkRunSettings": {
+    "vulnerableCheckRunConclusionLevel": "failure",
+    "licenseCheckRunConclusionLevel": "failure",
+    "displayMode": "diff",
+    "useMendCheckNames": true,
+    "strictMode": "failure"
+  },  
   "scanSettingsSAST": {
     "enableScan": true,
     "enableRemediation": true,
