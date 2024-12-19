@@ -1,9 +1,5 @@
---- original
-+++ remediated
-@@ -0,0 +0,0 @@
  package org.owasp.webgoat.lessons.pathtraversal;
  
-@@ -3,0 +3,1 @@
 +import java.nio.file.Paths;
  import static org.springframework.http.MediaType.ALL_VALUE;
  import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
@@ -76,7 +72,6 @@
        while (entries.hasMoreElements()) {
          ZipEntry e = entries.nextElement();
          File f = new File(tmpZipDirectory.toFile(), e.getName());
-@@ -74,0 +75,6 @@
 +          String canonicalDestinationPath = f.getCanonicalPath();
 +          String canonicalBasePath = tmpZipDirectory.toFile().getCanonicalPath();
 +          if (!canonicalDestinationPath.startsWith(canonicalBasePath)) {
