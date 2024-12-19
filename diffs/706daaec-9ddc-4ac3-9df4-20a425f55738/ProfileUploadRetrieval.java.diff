@@ -1,6 +1,3 @@
---- original
-+++ remediated
-@@ -0,0 +0,0 @@
  package org.owasp.webgoat.lessons.pathtraversal;
  
  import java.io.File;
@@ -93,7 +90,6 @@
        var id = request.getParameter("id");
        var catPicture =
            new File(catPicturesDirectory, (id == null ? RandomUtils.nextInt(1, 11) : id) + ".jpg");
-@@ -93,0 +93,8 @@
 +        try {
 +          String normalizedPath = catPicture.getCanonicalPath();
 +          if (!normalizedPath.startsWith(new File(catPicturesDirectory).getCanonicalPath())) {
@@ -103,7 +99,6 @@
 +          return ResponseEntity.badRequest().body("Error: could not access file.");
 +        }
  
-@@ -94,0 +102,1 @@
 +
        if (catPicture.getName().toLowerCase().contains("path-traversal-secret.jpg")) {
          return ResponseEntity.ok()
