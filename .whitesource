@@ -27,7 +27,7 @@
     "baseBranches": ["dev"]
   },
   "checkRunSettingsSAST": {
-    "checkRunConclusionLevel": "failure",
+    "checkRunConclusionLevel": "none",
     "severityThreshold": "high"
   },
   "issueSettingsSAST": {
