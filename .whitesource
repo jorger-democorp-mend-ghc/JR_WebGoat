@@ -22,7 +22,7 @@
   "scanSettingsSAST": {
     "enableScan": true,
     "enableRemediation": true,
-    "scanPullRequests": true,
+    "scanPullRequests": false,
     "incrementalScan": true,
     "baseBranches": ["dev"]
   },
