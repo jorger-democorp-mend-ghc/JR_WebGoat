@@ -4,7 +4,7 @@
     "workflowRules": {
       "enabled": true
     },
-    "enableRenovate": false
+    "enableRenovate": true
   },
   "scanSettings": {
     "releaseBranches": ["v.*"],
