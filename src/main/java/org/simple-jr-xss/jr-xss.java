@@ -1,0 +1,25 @@
+package org.simple-jr-xss;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+
+public class XSSVulnerableServlet extends HttpServlet {
+
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String userInput = request.getParameter("userInput"); // Get input from user
+
+        // Directly include the user input in the response without validation or escaping
+        response.setContentType("text/html");
+        response.getWriter().println("<html>");
+        response.getWriter().println("<head><title>XSS Vulnerable Page</title></head>");
+        response.getWriter().println("<body>");
+        response.getWriter().println("<h1>Welcome to the XSS Vulnerable Page</h1>");
+        response.getWriter().println("<p>Your input: " + userInput + "</p>"); // Unsafe inclusion
+        response.getWriter().println("</body>");
+        response.getWriter().println("</html>");
+    }
+}  
