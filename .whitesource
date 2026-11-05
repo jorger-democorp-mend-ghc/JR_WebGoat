@@ -31,7 +31,7 @@
     "severityThreshold": "high"
   },
   "issueSettingsSAST": {
-    "issueType": "repo",
+    "issueType": "finding",
     "minSeverityLevel": "medium"
   }
 }
