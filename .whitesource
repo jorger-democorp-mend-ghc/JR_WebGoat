@@ -33,7 +33,8 @@
   },
   "issueSettingsSAST": {
     "issueType": "finding",
-    "minSeverityLevel": "medium"
+    "minSeverityLevel": "medium",
+    "requireCommandToComment": false
   }
 }
   
