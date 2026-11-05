@@ -24,7 +24,8 @@
     "enableRemediation": true,
     "scanPullRequests": true,
     "incrementalScan": true,
-    "baseBranches": ["dev"]
+    "baseBranches": ["dev"],
+    "findingSuppressions": "enabled"
   },
   "checkRunSettingsSAST": {
     "checkRunConclusionLevel": "failure",
