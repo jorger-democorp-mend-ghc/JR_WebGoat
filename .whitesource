@@ -2,9 +2,9 @@
   "settingsInheritedFrom": "jorger-democorp-mend-ghc/whitesource-config@main",
   "remediateSettings": {
     "workflowRules": {
-      "enabled": true
+      "enabled": false
     },
-    "enableRenovate": true
+    "enableRenovate": false
   },
   "scanSettings": {
     "releaseBranches": ["v.*"],
