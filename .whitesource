@@ -32,7 +32,7 @@
     "severityThreshold": "high"
   },
   "issueSettingsSAST": {
-    "issueType": "finding",
+    "issueType": "repo",
     "minSeverityLevel": "medium",
     "requireCommandToComment": false
   }
